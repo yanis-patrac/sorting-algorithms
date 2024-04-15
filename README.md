@@ -39,6 +39,28 @@ Comparison: Among the faster algorithms (merge sort, quick sort, heap sort, and 
 Consideration: While merge sort, quick sort, and heap sort are known for their efficiency in general cases, comb sort may be preferred due to its faster execution time specifically for sorting real numbers.
 
 These observations can guide the choice of sorting algorithm for sorting lists of real numbers efficiently in various applications.
+# Color Sorting
+This Python program sorts randomly generated colored circles using various sorting algorithms, providing an interactive visualization of the sorting process.
+
+## Features:
+Interactive Interface: Users can select the number of circles to sort and the sorting algorithm to use.
+Real-time Sorting Visualization: Animations are added during the sorting process to provide a visual representation of the sorting algorithms.
+Error Handling: The program displays error messages in case of any issues encountered during execution.
+## Requirements:
+Python 3.x
+Pygame library
+## How to Use:
+Run the program using Python.
+Use the left mouse button to generate new random colors for sorting.
+Use the right mouse button to start the sorting process.
+Watch as the circles are sorted using the selected algorithm with real-time animations.
+## Algorithms Available:
+Selection Sort
+Bubble Sort
+Insertion Sort
+Quick Sort
+Random Sort
+
 ## Conclusion
 
 This project provides an interactive and visual way to explore and compare different sorting algorithms. By visualizing the sorting process, users can gain a better understanding of how each algorithm works and appreciate their relative performance in different scenarios.
